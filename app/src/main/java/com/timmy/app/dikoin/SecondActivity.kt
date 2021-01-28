@@ -15,6 +15,6 @@ class SecondActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
-        Log.i(TAG, " timmmmmmy secondViewModel : $secondViewModel ")
+        Log.i(TAG, "TimmmmmmY second viewModel: $secondViewModel ")
     }
 }

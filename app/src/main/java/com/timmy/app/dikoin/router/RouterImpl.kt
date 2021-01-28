@@ -11,7 +11,7 @@ class RouterImpl(private val activity: Activity) : Router {
     private val TAG = this::class.java.simpleName
 
     init {
-        Log.i(TAG, " timmmmmmy initial ")
+        Log.i(TAG, "TimmmmmmY initial.")
     }
 
 
