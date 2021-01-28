@@ -22,9 +22,9 @@ class FirstActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_first)
-        Log.i(TAG, " timmmmmmy router : $router ")
-        Log.i(TAG, " timmmmmmy resourceProvider : $resourceProvider ")
-        Log.i(TAG, " timmmmmmy missionRepo : $missionRepo ")
+        Log.i(TAG, "TimmmmmmY router: $router")
+        Log.i(TAG, "TimmmmmmY resourceProvider: $resourceProvider")
+        Log.i(TAG, "TimmmmmmY missionRepo: $missionRepo")
         first.setOnClickListener {
             startActivity(Intent(this, SecondActivity::class.java))
         }

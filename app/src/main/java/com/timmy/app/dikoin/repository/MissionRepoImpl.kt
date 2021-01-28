@@ -9,7 +9,7 @@ class MissionRepoImpl(val resourceProvider: ResourceProvider) : MissionRepo {
     private val TAG = this::class.java.simpleName
 
     init {
-        Log.i(TAG, " timmmmmmy initial : $resourceProvider")
+        Log.i(TAG, "TimmmmmmY initial: $resourceProvider")
     }
 
     override fun getMissionName(): String {

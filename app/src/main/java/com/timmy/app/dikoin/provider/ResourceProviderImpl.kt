@@ -10,7 +10,7 @@ class ResourceProviderImpl(context: Context) : ResourceProvider {
     private val TAG = this::class.java.simpleName
 
     init {
-        Log.i(TAG, " timmmmmmy initial")
+        Log.i(TAG, "TimmmmmmY initial.")
     }
 
     private val appContext: Context = context.applicationContext
