@@ -1,4 +1,4 @@
-package com.timmy.app.dikoin.repository
+package com.timmy.codelab.dikoin.repository
 
 interface MissionRepo {
     fun getMissionName(): String

@@ -1,10 +1,10 @@
-package com.timmy.app.dikoin
+package com.timmy.codelab.dikoin
 
 import android.app.Application
-import com.timmy.app.dikoin.di.providerModule
-import com.timmy.app.dikoin.di.repositoryModule
-import com.timmy.app.dikoin.di.routerModule
-import com.timmy.app.dikoin.di.viewModelModule
+import com.timmy.codelab.dikoin.di.providerModule
+import com.timmy.codelab.dikoin.di.repositoryModule
+import com.timmy.codelab.dikoin.di.routerModule
+import com.timmy.codelab.dikoin.di.viewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

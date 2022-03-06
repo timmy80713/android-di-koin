@@ -1,4 +1,4 @@
-package com.timmy.app.dikoin.provider
+package com.timmy.codelab.dikoin.provider
 
 import android.content.Context
 import android.graphics.drawable.Drawable

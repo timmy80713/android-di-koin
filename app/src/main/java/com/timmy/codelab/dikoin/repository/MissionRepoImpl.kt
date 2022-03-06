@@ -1,10 +1,10 @@
-package com.timmy.app.dikoin.repository
+package com.timmy.codelab.dikoin.repository
 
 import android.util.Log
-import com.timmy.app.dikoin.R
-import com.timmy.app.dikoin.provider.ResourceProvider
+import com.timmy.codelab.dikoin.R
+import com.timmy.codelab.dikoin.provider.ResourceProvider
 
-class MissionRepoImpl(val resourceProvider: ResourceProvider) : MissionRepo {
+class MissionRepoImpl(private val resourceProvider: ResourceProvider) : MissionRepo {
 
     private val TAG = this::class.java.simpleName
 

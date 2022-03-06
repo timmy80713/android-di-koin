@@ -1,4 +1,4 @@
-package com.timmy.app.dikoin.provider
+package com.timmy.codelab.dikoin.provider
 
 import android.graphics.drawable.Drawable
 import androidx.annotation.ColorInt

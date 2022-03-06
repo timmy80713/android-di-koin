@@ -1,4 +1,4 @@
-package com.timmy.app.dikoin
+package com.timmy.codelab.dikoin
 
 import org.junit.Test
 
