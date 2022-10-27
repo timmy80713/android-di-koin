@@ -4,7 +4,9 @@ import android.content.Context
 import android.graphics.drawable.Drawable
 import android.util.Log
 import androidx.core.content.ContextCompat
+import org.koin.core.annotation.Single
 
+@Single
 class ResourceProviderImpl(context: Context) : ResourceProvider {
 
     private val TAG = this::class.java.simpleName

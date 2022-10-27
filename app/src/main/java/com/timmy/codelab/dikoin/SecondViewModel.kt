@@ -3,9 +3,11 @@ package com.timmy.codelab.dikoin
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import com.timmy.codelab.dikoin.provider.ResourceProvider
-import com.timmy.codelab.dikoin.repository.MissionRepo
+import com.timmy.codelab.dikoin.repo.MissionRepo
 import com.timmy.codelab.dikoin.router.Router
+import org.koin.android.annotation.KoinViewModel
 
+@KoinViewModel
 class SecondViewModel(
     private val resourceProvider: ResourceProvider,
     private val router: Router,

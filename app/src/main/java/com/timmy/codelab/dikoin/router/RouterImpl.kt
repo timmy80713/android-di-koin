@@ -1,12 +1,14 @@
 package com.timmy.codelab.dikoin.router
 
-import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.provider.Settings
 import android.util.Log
+import org.koin.core.annotation.Factory
 
-class RouterImpl(private val activityProvider: () -> Activity?) : Router {
+@Factory
+class RouterImpl(context: Context) : Router {
 
     private val TAG = this::class.java.simpleName
 
@@ -14,8 +16,10 @@ class RouterImpl(private val activityProvider: () -> Activity?) : Router {
         Log.i(TAG, "TimmmmmmY initial.")
     }
 
+    private val appContext: Context = context.applicationContext
+
     override fun showAppDetailSetting() {
-        activityProvider()?.run {
+        appContext.run {
             startActivity(Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
                 data = Uri.parse("package:$packageName")
             })
